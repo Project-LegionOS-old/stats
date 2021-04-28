@@ -1,0 +1,55 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
+body {
+    background-color: #191919;
+}
+
+.title {
+    color: #fff;
+}
+
+.subtitle {
+    color: #eee;
+}
+
+.navbar {
+    height: 8vh;
+    background-color: #191919;
+}
+
+.navbar-logo {
+    max-height: 4rem !important;
+}
+
+.nav-links {
+    color: #ffffff;
+    font-size: larger;
+}
+
+.hero-content {
+    padding-top: 25vh;
+}
+
+.subtitle {
+    padding-top: 1rem;
+}
+
+.hero-desktop {
+    height: 92vh;
+    background-image: url('../img/hero-bg.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 110vh;
+}

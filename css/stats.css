@@ -1,0 +1,54 @@
+        .table {       
+         background-color: #blue
+	margin: 100px auto;
+box-shadow: 5px 4px 30px rgba(0,0,0,.10);
+border-spacing: 0px;
+transition: all .5s;
+            border: 1px solid #111111;
+            color: #ffff
+        }
+	.container {
+	align-items: center;
+	font-weight: 900;
+	}
+
+	 .container table {
+                width: 95% !important;
+                margin: auto;
+                font-size: 17px;
+            }
+         .table-heading {  
+            font-weight: 900;	
+            margin: auto;
+	        align-items: center;
+		font-size:1.35rem;
+        }
+
+        .table-success {
+	border-radius: 10px 10px 0 0;
+	background: linear-gradient(45deg, #b92b27, #1565c0);
+	font-size: 20px;
+
+	    
+        }
+tbody {
+	color:brown;
+}
+
+		td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+  }
+}
+.table.threeDMode {
+	transform: rotateX(65deg) rotateZ(-35deg);
+}

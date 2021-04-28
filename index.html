@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <title>Legion OS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style-test.css" />
+    <link rel="stylesheet" href="css/stats.css" />
+    <style>
+      h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #6600FF;
+	text-align: center;
+}
+div.container {
+  line-height: 1cm;
+}
+    </style>
+  </head>
+
+  <body>
+    <div id="babasbmsgx" style="visibility: visible !important">
+      Please disable your adblock and script blockers to view this page
+    </div>
+    <div id="turn">
+      <h1>Please rotate your device to portrait mode</h1>
+    </div>
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="container is-widescreen">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img class="navbar-logo" src="img/navbar-logo.png" />
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasic"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarBasic" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="https://blog.legionos.org" class="navbar-item nav-links"
+              >Blog</a
+            >
+            <a href="contact.html" class="navbar-item nav-links">Contact</a>
+            <a href="https://legionos.org/download" class="navbar-item nav-links">Download</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main style="margin-top: 7rem !important" class="container">
+
+        <div class="container features-section">
+            <div class="heading">
+              <h1 class="title is-4 has-text-centered has-text-white">LEGION STATS</h1>
+              <hr />
+            </div>
+            <div class="container card header-card has-text-centered" >
+                <h1 style="font-size: 200%;" >LegionOS Total Downloads are  <span class="totaldownload"></span> .</h1>
+                <h2 style="font-size: 150%;">Note: These stats are only for official downloads, unofficial numbers are unknown.</h3>
+            </div>
+        </main>
+    <br /><br /><br />
+
+      <!-- TABLE ENTRIES >> Supported Devices -->
+      <div class="container">
+
+        <h3 class="text-center table-heading">SUPPORTED DEVICES</h3>
+
+        <table class="table table-striped" style=" font-weight: 600;">
+            <thead class="table-success">
+                <tr>
+                    <th>DEVICES</th>
+                    <th>DOWNLOADS</th>
+                    <th>Percentage</th>
+                </tr>
+
+            </thead>
+            <tbody class="table_device_2">
+
+            </tbody>
+        </table>
+    </div>
+    <br /><br /><br />
+
+    <!-- TABLE ENTRIES >> Countries -->
+    <div class="container">
+        <!-- Blog entry -->
+        <h3 class="text-center table-heading">TOP COUNTRIES</h3>
+        <table class="table table-striped">
+            <thead class="table-success">
+                <tr>
+                    <th>SERIAL NUMBER</th>
+                    <th>COUNTRY NAME</th>
+                    <th>DOWNLOADS</th>
+                </tr>
+
+            </thead>
+            <tbody class="countries">
+
+            </tbody>
+        </table>
+    </div>
+    <br /><br /><br />
+
+    <div class="container">
+
+      <h3 class="text-center table-heading">OS USED TO DOWNLOAD LEGION</h3>
+
+        <table class="table table-striped">
+            <thead class="table-success">
+                <tr>
+                    <th>SERIAL NUMBER</th>
+                    <th>COUNTRY NAME</th>
+                    <th>DOWNLOADS</th>
+                </tr>
+
+            </thead>
+            <tbody class="oses">
+            </tbody>
+        </table>
+    </div>
+
+ <br /><br /><br />
+
+    <footer class="footer">
+      <div class="content has-text-centered has-text-white">
+        <p>
+          Website by
+          <a class="footer-link" href="https://github.com.rajkale99"
+          ><b>RajKale</b></a
+          >
+          <br />
+          Copyright &copy; 2021 LegionOS.
+        </p>
+        <div class="footer-buttons-list">
+          <button
+            onclick="location.href='https://github.com/Project-LegionOS';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/github.svg " />
+            </span>
+          </button>
+          <button
+            onclick="location.href='https://twitter.com/ProjectLegionOS';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/twitter.svg " />
+            </span>
+          </button>
+          <button
+            onclick="location.href='https://t.me/legionUpdates';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/telegram.svg " />
+            </span>
+          </button>
+          <button
+            onclick="location.href='mailto:projectlegionos@gmail.com';"
+            class="button is-ghost footer-button"
+          >
+            <span class="icon is-small">
+              <img class="feature-icon" src="img/gmail.svg " />
+            </span>
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/index.js"></script>
+  <script src="./js/blockAdblock.js"></script>
+  <script src="./js/table.js"></script>
+  <script src="./js/stats.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(
+        document.querySelectorAll('.navbar-burger'),
+        0
+      );
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+        // Add a click event on each of them
+        $navbarBurgers.forEach((el) => {
+          el.addEventListener('click', () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          });
+        });
+      }
+    });
+  </script>
+</html>
