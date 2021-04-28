@@ -71,7 +71,7 @@ const OTA_Function = async () => {
       const response = await fetch(
         "https://sourceforge.net/projects/legionrom/files/" +
           device.codename +
-          "/stats/json?start_date=2020-01-01&end_date=2022-01-01"
+          "/stats/json?start_date=2017-01-01&end_date=2022-01-01"
       );
       const jsonData = await response.json();
       const percent = ((jsonData.total * 100) / Total__Download).toFixed(3);
