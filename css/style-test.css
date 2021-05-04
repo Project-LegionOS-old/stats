@@ -31,17 +31,17 @@ hr {
 }
 
 body {
-  background-color: #242424;
+  background-color: #1d1d1d;
   overflow: hidden;
   overflow-x: hidden;
 }
 
 .navbar {
-  background: #302b63;
+  background: #242424;
 }
 
 .navbar-menu {
-  background-color: #302b63;
+  background-color: #242424;
 }
 
 .navbar-brand {
@@ -96,6 +96,7 @@ body {
   padding-top: 0.8rem;
   font-size: large;
   font-weight: 500;
+  color: #f14668;
 }
 
 .feature-desc {
@@ -108,16 +109,37 @@ body {
 .heading {
   text-transform: uppercase;
   letter-spacing: 7px;
+  color: #f14668;
 }
+.title {
+    color: orange;
+  }
 
 .header-card {
   padding: 18px;
 }
 
 .header-card {
- background: linear-gradient(45deg, #b92b27, #1565c0);
- border-radius:20px;
- color: #f2f2f2;
+ background: #191919;
+ -webkit-box-shadow: 0px 8px 16px 0px rgba(241, 12, 50, 0.129),
+ 0px -8px 16px 0px rgba(241, 12, 50, 00.129);
+-moz-box-shadow: 0px 8px 16px 0px rgba(241, 12, 50, 00.129),
+ 0px -8px 16px 0px rgba(241, 12, 50, 00.129);
+box-shadow: 0px 8px 16px 0px rgba(241, 12, 50, 00.129),
+ 0px -8px 16px 0px rgba(241, 12, 50, 00.129);
+ padding: 2.5rem;
+ border-radius: 14px;
+ margin-right: 0.75rem;
+ margin-left: 0.75rem;
+ margin-top: 0.6rem;
+ color: white;
+ max-width: 100%;
+ overflow: hidden;
+ position: relative;
+ box-sizing: border-box;
+ display: block;
+ font-size: 14px;
+ text-align: center!important;
 }
 
 .owl-nav span {
@@ -129,7 +151,7 @@ body {
 /*Footer*/
 
 .footer {
-  background: linear-gradient(45deg, #c31432, #240b36);
+  background: #191919;
   margin-bottom: -3.5rem;
 }
 
@@ -161,7 +183,7 @@ body {
 }
 
 body:nth-child(2) {
-  background: linear-gradient(45deg, #780206, #061161);!important;
+  background: #1d1d1d;!important;
 }
 
 @media (min-width: 1000px) {
